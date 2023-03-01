@@ -27,14 +27,13 @@ class User: ObservableObject, Codable {
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Pagination")
-            
-            Text("Hello, world!")
+            Text("I got supplies")
         }
         .padding()
     }
 }
 
+//
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
