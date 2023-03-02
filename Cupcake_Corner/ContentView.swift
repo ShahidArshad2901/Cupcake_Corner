@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var order = Order()
     
-    
     var body: some View {
         NavigationView {
             Form {
